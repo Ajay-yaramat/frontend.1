@@ -1,0 +1,89 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+}
+*{
+margin:0;
+padding:0;
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(120deg ,lightgreen,orange);
+}
+.container{
+filter: drop-shadow(10px 1-px 15px black);
+border-radius: 5px;
+font-size: 15px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 10px;
+text-align: center;
+background-color:whitesmoke;
+}
+.container.heading{
+font-weight: 40px;
+font-size: 20px;
+}
+.container .namedetail{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.namedetail inputbox input{
+height: 40px;
+margin: 45px;
+width: 100%;
+border-radius: 3px;
+border: solid 2px gray;
+}
+
+@media {
+    .container{
+        border: 1px solid black;
+        text-align: center;
+        margin: 20px;
+    }
+    *{
+    margin:0;
+    padding:0;
+    }
+    body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+    }
+    .container{
+    filter: drop-shadow(10px 1-px 15px black);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    /* background: linear-gradient(120deg ,lightgreen,darkblue); */
+    }
+    .container.heading{
+    font-weight: 40px;
+    font-size: 20px;
+    }
+    .container .userdetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .userdetails inputbox input{
+    height: 40px;
+    margin: 45px;
+    width: 100%;
+    border-radius: 3px;
+    border: solid 2px gray;
+    }
+    .userdetails{
+        positio
+    }
+}

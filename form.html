@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form9.css"> <link rel="stylesheet" href="form.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>REGISTRATION FORM</h1>
+        <form action="#">
+            <div class="userdetails">
+            <div class="inputbox">
+                <label for="username">username:</label>
+                <input type="text" id="username" minlength="5" maxlength="15" placeholder="Enter your Name"></input>
+            </div>    
+            <br>
+            <div class="inputbox">
+                <label for="password">password</label>
+                <input type="text" id="password" minlength="5" maxlength="15" placeholder="password"></input>
+            </div>
+            <br>
+            <div class="inputbox">
+                <label for="E-Mail">E-Mail</label>
+                <input type="text" id="E-mail" minlength="5" maxlength="15">
+            </div>
+            <br>
+            <div class="inputbox">
+                <label for="phone Num:">Phone Num:</label>
+                <input type="text" id="phone Num" minlength="5" maxlength="15" placeholder="1200478394">
+            </div>
+            <br>
+            <div>
+                <label for="file">upload your files</label>
+                <input type="file" id="file" accept="image/png">
+            </div>
+            <br>
+            <div>
+                <label for="Dated">Date:</label>
+                <input type="date" id="Dated">
+            </div>
+            <br>
+            <div>
+                <label for="title">Title:</label>
+                <label for="mr. ">Mrs.</label>
+                <input type="radio" name="title">
+                <label for="Mrs.">Mrs.</label>
+                <input type="radio" name="title">
+                <label for="ms.">Ms.</label>
+                <input type="radio" name="title">
+                <label for="dr">Dr</label>
+                <input type="radio" name="Dr">
+            </div>
+            <br>
+            <div>
+                <label for="dropdown">Payments:</label>
+                <select name="drop" id="dropdown">
+                <option value="ruppeess">Rs.</option>
+                <option value="dollar">$</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="check">I agree to all the terms and conditions.</label>
+                <input type="checkbox">
+            </div>
+            <br>
+            <div>
+                <label for="Quanity">NO. of attempts:</label>
+                <input type="number" min="1" max="9" value="0">
+            </div>
+            <br>
+            <div>
+                <label for="comments">Any message:</label>
+                <textarea name="textarea" id="comments" rows="5" ></textarea>
+            </div>
+            <br>
+            <div class="buttons">
+                <input type="submit" value="submit" style="width: 400px;">
+        </form>
+    </div>    
+</body>
+</html>

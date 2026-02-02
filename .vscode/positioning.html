@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+
+        .main{
+            background-color: yellowgreen;
+            height: 200px;
+            
+            padding: 10px;
+           
+        }
+        .relative{
+            background-color: blue;
+            color: rgb(105, 234, 30);
+            padding: 10px;
+            
+             position: Relative;
+              left: 120px;
+              bottom: 20px;
+        }
+        
+        .absolute{
+            background-color: rgb(105, 234, 30);
+            color: blue;
+            padding: 20px;
+            position: absolute;
+            right: 10px;
+            left: 10px;
+
+        }
+        .fixed{
+            background-color: black;
+            color: antiquewhite;
+            padding: 25px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Positioning</h1>
+    <div class="main">
+    <!-- stays in normal it can be moved elft right -->
+    <div class="relative">Relative</div>
+    <!-- remove from  normal position can be Fixed anywhere where you want -->
+    <div class="absolute">Absolute</div>
+    <div class="fixed">Fixed</div> 
+   
+    </div>
+
+</body>
+</html>

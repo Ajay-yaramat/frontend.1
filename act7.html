@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+        }
+        td, th{
+            border: 1px solid;
+            text-align: center;
+            padding: 10px;
+        }
+        th{
+            background-color: lightblue;
+        }
+        td:hover{
+            background-color: lightcoral;
+        }
+        th:hover{
+            background-color: lightcoral;
+        }
+        tr,th{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="one">
+                <th colspan="2">Sr No</th>
+                <th colspan="2">Name</th>
+                <th colspan="2">Place</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="first">
+                <td colspan="2">1</td>
+                <td colspan="2">Arwin</td>
+                <td colspan="2" style="background-color: violet;">Patiala</td>
+            </tr>
+            <tr style="background-color: lightblue;">
+                <td colspan="2">2</td>
+                <td colspan="2">Gauri</td>
+                <td colspan="2">Palampur</td>
+            </tr>
+            <tr>
+                <td colspan="6" style="background-color: white;"><b>A detailed Information</b></td>
+            </tr>
+            <tr style="background-color: lightblue;">
+                <th colspan="2">Sr No</th>
+                <td colspan="2">1</td>
+                <td colspan="2">2</td>
+            </tr>
+        </thead>
+            <tr class="first">
+                <th colspan="2" style="background-color: white;">Name</th>
+                <td colspan="2" style="background-color: lightblue;">Arwin</td>
+                <td colspan="2">Gauri</td>
+            </tr>
+            <tr style="background-color: lightblue;">
+                <th colspan="2">Place</th>
+                <td colspan="2">Patiala</td>
+                <td colspan="2">Palampur</td>
+            </tr>
+            <tr>
+                <td colspan="6" class="empty"> </td>
+            </tr>
+            <thead>
+                <tr>
+                    <th colspan="2">Name</th>
+                    <th colspan="2">Place</th>
+                    <th colspan="2">Phone</th>
+                </tr>
+            </thead>
+                <tr class="first">
+                    <td >Dhillon</td>
+                    <td style="background-color: lightblue;">Arwin</td>
+                    <td colspan="2">Patiala</td>
+                    <td colspan="2" rowspan="4" style="background-color: lightblue;">8872795215</td>
+                </tr>
+                <tr style="background-color: lightblue;">
+                    <td >Thakur</td>
+                    <td >Gauri</td>
+                    <td colspan="2">Palampur</td>
+                </tr>
+        </tbody>
+    </table>
+</body>
+</html>

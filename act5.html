@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 1000px;
+            height: 150px;
+            padding: 10px;
+            text-align: center;
+            margin-left: 20px;
+        }
+        tr{
+            background-color: white;
+        }
+        tr:nth-child(even){
+            background-color: lightskyblue;
+        }
+        tr,th,td{
+            border: 1px solid black;
+        }
+        th{
+            background-color: darkcyan;
+            color: white;
+        }
+        .l1{
+            background-color: burlywood;
+        }
+        .l2{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>CSE Semester Timetable</caption>
+        <tr>
+            <th colspan="2">Day</th>
+            <th>9:00 AM - 10:00 AM</th>
+            <th>10:00 AM - 11:00 AM</th>
+            <th>11:00 AM - 12:00 AM</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td class="l1">Lecture 1</td>
+            <td>Data Structures</td>
+            <td>Operating System</td>
+            <td>Algorithms</td>
+        </tr>
+        <tr>
+            <td >Lecture 2</td>
+            <td colspan="2" class="l2">Lab Database Management System(DBMS)</td>
+            <td>Networking</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Tuesday</td>
+            <td class="l1">Lecture 1</td>
+            <td>Object Oriented Programming</td>
+            <td>Compiler Design</td>
+            <td>Web Technologies</td>
+        </tr>
+        <tr>
+            <td>Lecture 2</td>
+            <td colspan="2" class="l2">Lab Operating System</td>
+            <td>Machine Learning</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Wednesday</td>
+            <td class="l1">Lecture 1</td>
+            <td>Computer Architecture</td>
+            <td>Discrete Mathematics</td>
+            <td>Cloud Computing</td>
+        </tr>
+        <tr>
+            <td>Lecture 2</td>
+            <td colspan="2" class="l2">Lab Data Structures</td>
+            <td>Artificial Intelligence</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Thursday</td>
+            <td class="l1">Lecture 1</td>
+            <td>Software Engineering</td>
+            <td>Cryptography</td>
+            <td>Advanced Algorithms</td>
+        </tr>
+        <tr>
+            <td>Lecture 2</td>
+            <td colspan="2" class="l2">Lab Networking</td>
+            <td>IOT(Internet of Things)</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Friday</td>
+            <td class="l1">Lecture 1</td>
+            <td>Data Mining</td>
+            <td>operating System</td>
+            <td>Big Data Analysis</td>
+        </tr>
+        <tr>
+            <td>Lecture 2</td>
+            <td colspan="2" class="l2">Lab Web Technologies</td>
+            <td>Project Work</td>
+        </tr>
+        <tr><td>8872795251</td> </tr>
+    </table>
+</body>
+</html>
